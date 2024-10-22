@@ -9,7 +9,7 @@ public class questao_18 {
 
         System.out.println("Qual seu gênero? (masculoni ou feminino)");
         String genero = sc.next();
-
+        sc.close();
         String homem = "masculino";
         String mulher = "feminino";
         
