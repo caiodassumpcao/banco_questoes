@@ -1,5 +1,11 @@
+import java.util.Scanner;
+
 public class questao_14 {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite a areasta do cubo:");
+        double aresta = sc.nextDouble();
+        double volume = Math.pow(aresta, 3);
+        System.out.printf("Volume do cubo: %.3f", volume);
     }
 }
