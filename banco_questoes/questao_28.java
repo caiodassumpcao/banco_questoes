@@ -7,7 +7,7 @@ public class questao_28 {
         System.out.println("Qual foi o valor do depósito na poupança?");
         double deposito = sc.nextDouble();
 
-        final double COTACAO = 0.005;
+        final double COTACAO = 1.005;
         
         double rendimento = deposito * COTACAO;
         double total = rendimento + deposito;
