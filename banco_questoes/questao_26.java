@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class questao_26 {
     public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.err.println("Digite o primeiro numero");
         int A = sc.nextInt();
@@ -14,6 +14,6 @@ public class questao_26 {
         B = temp;
 
         System.out.println("Depois da troca: A = " + A + ", B = " + B);
-        
+        sc.close();
     }
 }
