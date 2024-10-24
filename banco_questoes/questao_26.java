@@ -4,9 +4,9 @@ public class questao_26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.err.println("Digite o primeiro numero");
+        System.out.println("Digite o primeiro numero");
         int A = sc.nextInt();
-        System.err.println("Digite o segundo numero");
+        System.out.println("Digite o segundo numero");
         int B = sc.nextInt();
 
         int temp = A;
