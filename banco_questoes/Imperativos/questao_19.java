@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class questao_19 {
+public class Questao_19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Quantos kg de peixe foram pescados?");

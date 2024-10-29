@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
 
-public class questao_31 {
+public class Questao_31 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe sua data de nascimento:");

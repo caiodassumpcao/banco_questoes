@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class questao_17 {
+public class Questao_17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite a sua altura em metros:");

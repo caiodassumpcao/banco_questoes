@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class questao_27 {
+public class Questao_27 {
     
     public static void main(String[] args) {
         

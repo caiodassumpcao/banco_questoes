@@ -2,7 +2,7 @@ package Condicionais;
 
 import java.util.Scanner;
 
-public class questao_2 {
+public class Questao_2 {
 
     public static void main(String[] args) {
         

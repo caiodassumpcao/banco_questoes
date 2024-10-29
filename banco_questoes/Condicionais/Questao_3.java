@@ -2,7 +2,7 @@ package Condicionais;
 
 import java.util.Scanner;
 
-public class quetao_3 {
+public class Questao_3 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
