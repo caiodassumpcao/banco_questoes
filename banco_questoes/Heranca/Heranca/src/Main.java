@@ -14,6 +14,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nome do funcionario");
         f.setNome(sc.nextLine());
+        System.out.println("RG do funcionario");
+        f.setRg(sc.nextLine());
+        System.out.println("cpf do funcionario");
+        f.setCpf(sc.nextLine());
         System.out.println(f.getNome());
         sc.close();
     }
