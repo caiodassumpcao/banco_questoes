@@ -21,7 +21,9 @@ public class App {
     funcionario1.addDependentes(dependente2);
 
     //questão 5
+    Terrestre carro = new Terrestre(1, (short) 2024, "Gol", 500.00, 4, 200.0);
     
-
+    double consumoMedio = carro.consumo();
+    System.out.println("Consumo médio do carro" + carro.getId() + " de modelo " + carro.getModelo() + " : " + consumoMedio);
     }
 }
