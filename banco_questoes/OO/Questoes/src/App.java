@@ -2,8 +2,15 @@ import java.time.LocalDate;
 
 public class App {
     public static void main(String[] args) throws Exception {
-    Produto produto = new Produto(1, "Coca-Cola","Refrigerante de cola", LocalDate.of(2026, 3, 1));
+    Aluno aluno1 = new Aluno("123", "Caio", "111.111.111-11", LocalDate.of(1999, 1, 1), "Masculino", "Av. avenida", "Recife", "PE");
+    Turma turma = new Turma("POO", 1, 3);
 
-    System.out.println("Validade do produto " + produto.getNome() + " : " + produto.calcularDiasRestantes());
+
+    turma.addAluno(aluno1);
+
+    System.out.println("Aluno: " + aluno1.getNome() + " foi adicionado a turma: " + turma.getCod());
+
     }
+
+
 }
